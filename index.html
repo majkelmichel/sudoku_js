@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="div-table">
+        <table id="table">
+            <tr>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+            </tr>
+            <tr>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+            </tr>
+            <tr>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+                <td class="nine">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button onclick="checkIfSolved()">Sprawdź</button>
+        <span id="wyn"></span>
+    </div>
+    <script src="sudokus.js"></script>
+    <script src="sudoku.js"></script>
+    <script src="table_generator.js"></script>
+    <script src="sudoku_generator.js"></script>
+    <script src="hover.js"></script>
+</body>
+</html>
