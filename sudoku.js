@@ -10,7 +10,7 @@ const _board = [
     ['3', '', '', '', '9', '', '', '', ''],
 ];
 sudokuSolver(_board);
-console.log(_board);
+// console.log(_board);
 
 function isValid(board, row, col, k) {
     for (let i = 0; i < 9; i++) {

@@ -1,24 +1,48 @@
-/** {*/
-/*    margin: 0 auto;*/
-/*}*/
+* {
+    margin: auto auto;
+    font-size: 20px;
+    font-family: Arial, serif;
+    color: darkred;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    font-size: 5em;
+    text-shadow: 5px 5px #260000;
+}
 
 #table {
     border: black 5px solid;
     border-collapse: collapse;
+    width: 100%;
 }
 
-.inner-table {
-    margin: 0;
+div.center-flex {
+    padding: 1vh 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60vw;
 }
 
 input {
-    max-width: 50px;
-    max-height: 20px;
+    width: 50px;
+    height: 50px;
 }
 
-.color-border {
-    border: green 1px solid;
+button {
+    margin: 0;
+    width: 45%;
+    height: 10vh;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px #260000;
+    border-radius: 15px;
 }
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -29,7 +53,3 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
-
-/*.x1:hover {*/
-/*    border: red solid 1px;*/
-/*}*/

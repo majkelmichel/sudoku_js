@@ -2,12 +2,10 @@
 
 // ID format: "Xn-Yn"
 
-
-
 const to_render_in = document.querySelectorAll('.nine');
 
 const renderWithId = (y, x) => {
-    const table_3_3 = `        <table id="table">
+    const table_3_3 = `        <table>
             <tr>
                 <td>
                     <table class='inner-table'>
@@ -38,10 +36,3 @@ for (let i = 0; i < 3; i++) {
         arr[i][j].innerHTML = renderWithId(i, j);
     }
 }
-
-for (let i = 0; i < 9; i++) {
-    console.log(i);
-    // to_render_in[i].innerHTML = renderWithId(i);
-}
-
-const elem = $("#X3-Y4");

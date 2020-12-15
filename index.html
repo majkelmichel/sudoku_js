@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div id="div-table">
+    <div id="div-table" class="center-flex">
+        <h1>Sudoku</h1>
         <table id="table">
             <tr>
                 <td class="nine">
@@ -35,10 +36,11 @@
                 </td>
             </tr>
         </table>
+        <button style="border-color: green; color: green" onclick="checkIfSolved()">Sprawdź</button>
+        <button onclick="location.reload()">Nowa gra</button>
     </div>
-    <div>
-        <button onclick="checkIfSolved()">Sprawdź</button>
-        <span id="wyn"></span>
+    <div class="center-flex">
+
     </div>
     <script src="sudokus.js"></script>
     <script src="sudoku.js"></script>
